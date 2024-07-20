@@ -1,7 +1,7 @@
 import templete from '@/app/(data)/templete'
 import React, { useEffect, useState } from 'react'
 import TemplateCard from './TemplateCard'
-
+import Gen from './Gen'
 export interface TEMPLATE {
     name: string,
     desc: string,
@@ -41,6 +41,10 @@ function TempleliteListSection({ userSearchInput }: any) {
                         <TemplateCard key={index} {...item} />
                     ))
                 }
+            </div>
+
+            <div className='text-center m-9 p-10  bg-slate-100 text-black shadow-xl '>
+            <Gen/>
             </div>
         </>
     )

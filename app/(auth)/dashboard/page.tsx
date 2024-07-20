@@ -16,7 +16,7 @@ const dashboard = () => {
     </div>
 
 
-    <p className='ml-5'>This Application Was Developed by Arfan and Sriram from Muthu Thevar Mukkulathore HR.Sec School in Thirunagar,Madurai</p>
+    <p className='ml-5 font-mono'>This Application Was Developed by Arfan and Sriram from Muthu Thevar Mukkulathore HR.Sec School in Thirunagar,Madurai</p>
 
 </>
   )

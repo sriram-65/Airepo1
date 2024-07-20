@@ -2,9 +2,10 @@ import React from 'react'
 import { TEMPLATE } from './TempleliteListSection'
 import Image from 'next/image'
 import Link from 'next/link'
-
+import Gen from './Gen'
 function TemplateCard(item: TEMPLATE) {
   return (
+    <>
     <Link href={'/dashboard/content/' + item.slug}>
       <div className='p-5 shadow-md rounded-md bg-white flex flex-col gap-3 cursor-pointer hover:scale-105 transition-all'>
         <Image src={item.icon} alt="icon" width={50} height={50} />
@@ -12,6 +13,12 @@ function TemplateCard(item: TEMPLATE) {
         <p className='text-gray-500 line-clamp-3'>{item.desc}</p>
       </div>
     </Link>
+
+      
+   
+     
+    </>
+  
   )
 }
 
