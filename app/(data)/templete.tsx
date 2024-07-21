@@ -22,6 +22,22 @@ export default  [
 
    
 
+    {
+        name: 'Chatbot robot',
+        desc: 'An AI-powered chatbot tool that can interact with users, answer questions, and provide information based on your input.',
+        icon: 'https://cdn-icons-png.flaticon.com/128/6819/6819650.png',
+        category: 'Chatbot',
+        slug: 'chatbot',
+        aiPrompt: 'Engage in a conversation with the user, answer questions, and provide information based on user input. and output in the heading 3 and bold text ',
+        form: [
+            {
+                label: 'Enter your question or topic',
+                field: 'textarea',
+                name: 'userInput',
+                required: true
+            },
+        ]
+    },
 
     {
         name: 'Chemistry Teacher',
